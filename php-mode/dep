@@ -1,0 +1,33 @@
+#contributor : Sliim <sliim@mailoo.org>
+#name : Default: Build a class dependency
+#group : utils
+# --
+/**
+ * @var ${1:type}
+ */
+private \$${2:object} = null;
+
+/**
+ * ${2:$(capitalize text)} getter
+ *
+ * @return $1
+ */
+public function get${2:$(capitalize text)}()
+{
+   if (is_null($this->$2)) {
+      $0
+   }
+
+   return $this->$2;
+}
+
+/**
+ * ${2:$(capitalize text)} setter
+ *
+ * @return `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
+ */
+public function set${2:$(capitalize text)}($1 \$$2)
+{
+   $this->$2 = \$$2;
+   return \$this;
+}
