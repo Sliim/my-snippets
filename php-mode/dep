@@ -24,6 +24,8 @@ public function get${2:$(capitalize text)}()
 /**
  * ${2:$(capitalize text)} setter
  *
+ * @param $1 \$$2 ${2:$(capitalize text)} to set
+ *
  * @return `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
  */
 public function set${2:$(capitalize text)}($1 \$$2)
