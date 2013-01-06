@@ -20,13 +20,11 @@
  * You should have received a copy of the GNU General Public License along
  * with $1. If not, see <http://www.gnu.org/licenses/gpl-3.0.html>.
  *
- * PHP Version 5.3
+ * PHP Version ${2:5.3}
  *
- * @category $1
- * @package  ${2:package}
- * @author   Sliim <sliim@mailoo.org>
- * @license  GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
- * @link     http://www.sliim-projects.eu
+ * @author  Sliim <sliim@mailoo.org>
+ * @license GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @link    http://www.sliim-projects.eu
  */
 
 namespace ${3:`(mapconcat
@@ -44,16 +42,16 @@ namespace ${3:`(mapconcat
 /**
  * ${4:description}
  *
- * @package $2
+ * @package ${5:package}
  */
-class ${5:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
+class ${6:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
 {
    /**
-    * $5 Constructor
+    * $6 Constructor
     *
     * @return void
     */
-   public function ${6:__construct}()
+   public function ${7:__construct}()
    {
       $0
    }
