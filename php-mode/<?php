@@ -42,7 +42,7 @@ namespace ${3:`(mapconcat
 /**
  * ${4:description}
  *
- * @package ${5:package}
+ * @package ${5:\\$3\\$6}
  */
 class ${6:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
 {
